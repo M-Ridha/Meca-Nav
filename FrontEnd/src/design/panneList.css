@@ -1,0 +1,10 @@
+.list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 25px;
+  justify-content: space-around;
+  align-content:space-between;
+  min-height: 100vh;
+  margin: 40px;
+  margin-top: 300px;
+}

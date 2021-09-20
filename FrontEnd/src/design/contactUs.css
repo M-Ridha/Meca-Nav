@@ -1,0 +1,80 @@
+.peaperAll{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/dpwmfnhfg/image/upload/v1630841265/hedhi_jaaym0.jpg);
+    height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	
+
+}
+
+.pagecntc{
+    display: flex;
+}
+
+.form-form-C input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+    
+}
+
+.form-form-C input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+.form-form-C input[type=submit] {
+    background-color: #0758b7 ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+}
+
+.form-form-C input[type=submit]:hover {
+    background-color: #0e171c ;
+}
+
+.containerCnt {
+    border-radius: 5px;
+    /* background-color:#f6f6f6; */
+    background: transparent;
+    border-color: #f6f6f6;
+    border-style:solid;
+    padding: 20px;
+    width: 40%;
+    margin-top: 150px;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+}
+
+
+.peaperAll .msgsnd {
+    margin-top: 200px;
+    width: 740px;
+    margin-left: 50px;
+}
+
+.peaperAll .msgsnd h1 {
+    color: white;
+    
+    font-size: 44px;
+}

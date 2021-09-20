@@ -1,0 +1,94 @@
+
+
+.write-post-container {
+    width: 40%;
+    background: #b2b3b8;
+    border-radius: 6px;
+    padding: 15px;
+    color: #626262;
+    margin-top: 80px;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #626262
+}
+
+.user-profile small {
+    font-size:12px;
+}
+
+.post-input-conntainer{
+    padding-left: 55px ;
+    padding-top: 20px ;
+}
+
+.post-input-conntainer .tadesc {
+    width: 100%;
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+    height: 80px;
+}
+
+.post-input-conntainer .tacategory{
+    width: 100%;
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+    height: 45px;
+    
+}
+
+.post-input-conntainer img {
+    margin-top: 5px;
+    width: 300px;
+}
+
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.add-post-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px ;
+    font-size: 13px;
+}
+
+.add-post-links img {
+    width: 10px;
+    margin-right:10px ;
+}
+
+.add-post-links button{
+    border-radius: 5px;
+    background-color: #0758b7;
+    border-color: #0758b7;
+    color: white;
+    margin-left: 340px;
+    width: 100px;
+    margin-top: -10px;
+}

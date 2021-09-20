@@ -1,0 +1,45 @@
+                 /*  ----------Success Message : Profil page-------------- */
+.msg-succ{
+    width: 300px;
+    height: 60px ; 
+    position: fixed;
+    z-index: 9999;
+    top: 150 ;
+    margin-top: -10px; 
+    background: green; 
+    color: white;
+    border-radius: 15px;
+    margin-left: 920px;
+    opacity: 0.7
+}
+
+.msg-succ h3{
+    
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+        /* -------Success Message : solution page ------------ */
+.msg-succ-sol{
+    width: 300px;
+    height: 60px ; 
+    position: fixed;
+    z-index: 9999;
+    
+    margin-top: -75px; 
+    background: green; 
+    color: white;
+    border-radius: 15px;
+    margin-left: 920px;
+    opacity: 0.7
+}
+
+.msg-succ-sol h3{
+    
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+}

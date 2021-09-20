@@ -1,0 +1,27 @@
+.filterCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #0e171c;
+    width: 290px;
+    border-radius: 25px;
+    margin-top: -230px;
+    margin-left: 40%;
+    position:fixed;
+    z-index: 999999;
+}
+
+
+.filterCard input {
+    
+    border-radius: 15px;
+    background: white;
+    width: 220px;
+    height: 30px;
+}
+
+
+.filterCard i{
+    color:#0758b7;
+}
