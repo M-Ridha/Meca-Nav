@@ -5,7 +5,13 @@ const cors = require('cors')
 const config = require('config') 
 const PORT = config.get('SERVER_CONFIG.PORT')|| 8080
 
-
+    //deployment
+const path = require ('path')
+    //
+    
+    
+    
+    
     //Middlewares
 app.use(cors())    
 app.use(express.json({limit:'50mb'}))
@@ -23,4 +29,8 @@ app.listen(PORT , (err) => {
 
 
 
-
+    //setup for deployment
+app.use(express.static(path.join(__dirname, '../','FrontEnd','build')))    
+app.get('*',(req,res)=>{ 
+    res.sendFile(path.join(__dirname, '../','FrontEnd','build','index.html'));
+})
